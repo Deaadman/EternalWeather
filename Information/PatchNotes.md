@@ -18,7 +18,8 @@ So please note that the upcoming ideas provided within these patch notes aren't 
 
 >**Note:** A bundle of ideas, with no guarantee of implementation.
 
-- No further plans as of currently.
+- Eternal Weather?
+	- Allow the player to switch between the `WeatherStage`'s in `ModSettings`.
 
 ---
 
