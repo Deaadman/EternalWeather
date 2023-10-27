@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="#"><img src="https://raw.githubusercontent.com/Deaadman/UniversalTweaks/release/Images/PatchNotesHeading.png"></a>
+    <a href="#"><img src="https://raw.githubusercontent.com/Deaadman/EternalBlizzard/release/Images/PatchNotesHeading.png"></a>
 
 ---
 
