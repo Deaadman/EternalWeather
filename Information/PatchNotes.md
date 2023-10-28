@@ -19,7 +19,7 @@ So please note that the upcoming ideas provided within these patch notes aren't 
 
 >**Note:** A bundle of ideas, with no guarantee of implementation.
 
-- Nothing to see here as of currently...
+- Full Weather Control? - Suggested by **Tortuosit**.
 
 ---
 
@@ -30,7 +30,7 @@ So please note that the upcoming ideas provided within these patch notes aren't 
 ### Highlights / Key Changes:
 - Rebranded this mod from `Eternal Blizzard` to `Eternal Weather`.
 	- Fits in with the changes made below.
-- Players can now choose what weather they want to be infinite.
+- Players can now choose what weather they want to be infinite - Suggested by **FarcryBliss**.
 	- They may also choose `Default` to essentially disable the mod.
 - Now requires `ModSettings` as a dependant mod.
 
