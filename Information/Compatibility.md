@@ -1,11 +1,11 @@
 <p align="center">
-    <a href="#"><img src="https://raw.githubusercontent.com/Deaadman/EternalBlizzard/release/Images/CompatibilityHeading.png"></a>
+    <a href="#"><img src="https://raw.githubusercontent.com/Deaadman/EternalWeather/release/Images/CompatibilityHeading.png"></a>
 
 ---
 
 This document outlines the compatibility of this modification with various versions of The Long Dark and other modifications. The goal is to inform users about the versions this mod is compatible with and to identify potential incompatibilities or unsupported modifications.
 
->**Last Checked:** Compatibility was last verified on the **27th of October 2023**.
+>**Last Checked:** Compatibility was last verified on the **28th of October 2023**.
 
 ---
 

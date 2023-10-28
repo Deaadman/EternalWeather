@@ -1,4 +1,4 @@
-namespace EternalBlizzard;
+namespace EternalWeather.Utils;
 
 public class Logging
 {
