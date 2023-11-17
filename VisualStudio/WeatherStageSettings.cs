@@ -11,4 +11,5 @@ internal enum WeatherStageSettings
     LightSnow,
     HeavySnow,
     Blizzard,
+    GlimmerFog,
 }

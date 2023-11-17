@@ -3,13 +3,16 @@
 
 ---
 
-<p align="center">
-    <a href="https://github.com/Deaadman/EternalWeather/releases/latest"><img src="https://img.shields.io/github/v/release/Deaadman/EternalWeather?label=latest&style=for-the-badge"></a>
-    <a href="https://github.com/Deaadman/EternalWeather/releases"><img src="https://img.shields.io/github/downloads/Deaadman/EternalWeather/total.svg?style=for-the-badge"></a>
-    <a href="https://github.com/Deaadman/EternalWeather/releases"><img src="https://img.shields.io/github/downloads/Deaadman/EternalWeather/latest/total.svg?style=for-the-badge"></a>
+<div align="center">
 
-<p align="center">
-    <a href="https://github.com/Deaadman/EternalWeather/issues"><img src="https://img.shields.io/github/issues/Deaadman/EternalWeather?style=for-the-badge"></a>
+[![Latest Release](https://img.shields.io/github/v/release/Deaadman/EternalWeather?label=Latest%20Release&style=for-the-badge)](https://github.com/Deaadman/EternalWeather/releases/latest)
+
+[![Total Downloads](https://img.shields.io/github/downloads/Deaadman/EternalWeather/total.svg?style=for-the-badge)](https://github.com/Deaadman/EternalWeather/releases)
+[![Latest Downloads](https://img.shields.io/github/downloads/Deaadman/EternalWeather/latest/total.svg?style=for-the-badge)](https://github.com/Deaadman/EternalWeather/releases)
+
+[![Open Issues](https://img.shields.io/github/issues/Deaadman/EternalWeather?style=for-the-badge)](https://github.com/Deaadman/EternalWeather/issues)
+
+</div>
 
 ---
 
@@ -23,10 +26,21 @@ Eternal Weather is a modification that allows the player to change the weather f
 
 ---
 
-## USEFUL LINKS:
+## COMPATIBILITY:
 
-- [**Patch Notes**](https://github.com/Deaadman/EternalWeather/blob/release/Information/PatchNotes.md): Explore existing updates and stay informed about upcoming changes.
-- [**Compatibility**](https://github.com/Deaadman/EternalWeather/blob/release/Information/Compatibility.md): Review what is compatible, incompatible, or unsupported.
+### Required Dependencies:
+For optimal functionality of this modification, ensure you have the following versions or newer:
+
+- [**The Long Dark**](https://store.steampowered.com/news/app/305620) - Version: **v2.24**  
+- [**MelonLoader**](https://github.com/LavaGang/MelonLoader/releases) - Version: **v0.6.1**   
+
+### Compatible Mods:
+
+This mod is intended to be compatible with most mods unless mentioned in the 'Incompatible Mods' section. Always check for updates and go through mod descriptions to ensure full compatibility.
+
+### Incompatible Mods:
+
+Currently no mods are incompatible, but when there are some, avoid using the following mods with this modification as combining this mod with incompatible ones might result in game crashes, data loss, or unforeseen issues. 
 
 ---
 

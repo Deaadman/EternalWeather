@@ -1,10 +1,12 @@
-﻿namespace EternalWeather;
+﻿using EternalWeather.Properties;
+
+namespace EternalWeather;
 
 internal class SetWeatherStage
 {
     internal static void WeatherStageChange()
     {
-        WeatherStageSettings selectedWeather = Utils.Settings.Instance.ChooseWeatherStage;
+        WeatherStageSettings selectedWeather = Settings.Instance.ChooseWeatherStage;
 
         if (selectedWeather == WeatherStageSettings.Default)
         {
@@ -12,7 +14,7 @@ internal class SetWeatherStage
             return;
         }
 
-        WeatherStage actualWeatherStage = WeatherStageEnumMapping(Utils.Settings.Instance.ChooseWeatherStage);
+        WeatherStage actualWeatherStage = WeatherStageEnumMapping(Settings.Instance.ChooseWeatherStage);
         GameManager.GetWeatherTransitionComponent().ForceUnmanagedWeatherStage(actualWeatherStage, 0f);
     }
 
@@ -34,7 +36,8 @@ internal class SetWeatherStage
             WeatherStageSettings.LightSnow => WeatherStage.LightSnow,
             WeatherStageSettings.HeavySnow => WeatherStage.HeavySnow,
             WeatherStageSettings.Blizzard => WeatherStage.Blizzard,
-            _ => throw new ArgumentException($"Unsupported weather stage: {wss}"),
+            WeatherStageSettings.GlimmerFog => WeatherStage.ElectrostaticFog,
+            _ => throw new ArgumentException($"Unknown weather stage: {wss}"),
         };
     }
 }

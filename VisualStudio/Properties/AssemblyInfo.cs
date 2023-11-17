@@ -1,4 +1,5 @@
-﻿using BuildInfo = EternalWeather.Utils.BuildInfo;
+﻿using EternalWeather;
+using BuildInfo = EternalWeather.Properties.BuildInfo;
 
 [assembly: AssemblyTitle(BuildInfo.Name)]
 [assembly: AssemblyDescription(BuildInfo.Description)]
@@ -8,10 +9,11 @@
 [assembly: AssemblyTrademark(BuildInfo.Trademark)]
 [assembly: AssemblyCulture(BuildInfo.Culture)]
 
+[assembly: AssemblyVersion(BuildInfo.AssemblyVersion)]
 [assembly: AssemblyInformationalVersion(BuildInfo.Version)]
 [assembly: AssemblyFileVersion(BuildInfo.Version)]
 
-[assembly: MelonInfo(typeof(EternalWeather.Utils.Main), BuildInfo.GUIName, BuildInfo.Version, BuildInfo.Author, BuildInfo.DownloadLink)]
+[assembly: MelonInfo(typeof(Mod), BuildInfo.GUIName, BuildInfo.Version, BuildInfo.Author, BuildInfo.DownloadLink)]
 [assembly: MelonGame("Hinterland", "TheLongDark")]
 
 [assembly: VerifyLoaderVersion(BuildInfo.MelonLoaderVersion, true)]
